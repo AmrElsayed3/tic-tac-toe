@@ -1,0 +1,118 @@
+body {
+  background-color: #041230;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #E3872D;
+  margin-top: 30px;
+    overflow-x: hidden
+    
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #E3872D;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* first screen */
+
+#choice{
+  font-size: 60px;
+  color: #F3E8EE;
+    display: none
+}
+.chose-player {
+  font-size: 60px;
+    color: #F3E8EE;
+}
+.chose-player a{
+    color:#AAA;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.chose-player a:hover{
+    color: #E3872D
+}
+
+a {
+  text-decoration: none;
+}
+
+#x, #o {
+  color: #E3872D;
+  font-weight: bold;
+}
+
+/* board */
+
+#container {
+  text-align: center;
+  margin: 0 auto;
+  width: 420px;
+  height: 420px;
+  position: relative;
+}
+
+#board {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-collapse: collapse;
+  border: 11px solid #90BEDE;
+}
+
+td {
+  border: 10px solid #779CB7;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  font-size: 70px;
+  color: #F3E8EE;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* final screen */
+
+#winner {
+  font-size: 55px;
+  color: #F3E8EE;
+  margin-top: -15px;
+}
+
+#new-game {
+  font-size: 55px;
+  color: #FF5E5B;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  color: #477998;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #F3E8EE;
+}
+@media (min-width:320px) and (max-width:770px){
+    h1{
+        font-size: 40px;
+    }
+    #board{
+        width: 414px !important;
+    }
+    .chose-player{
+        font-size: 30px;
+    }
+    .chose-player a{
+        display: inline;
+    }
+    
+    
+}
